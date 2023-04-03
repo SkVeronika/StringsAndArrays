@@ -41,7 +41,7 @@ public class StatsService {
     }
 
     // количество месяцев, в которых продажи были ниже среднего
-    public int countMonthMin(int[] sales) {
+    public int numberMonthMin(int[] sales) {
         int average = averageAmount(sales); //средняя сумма продаж
         int countMonth = 0; //количество  месяцев
 
@@ -55,7 +55,7 @@ public class StatsService {
     }
 
     //количество месяцев, в которых продажи были выше среднего
-    public int countMonthMax(int[] sales) {
+    public int numberMonthMax(int[] sales) {
         int average = averageAmount(sales); //средняя сумма продаж
         int countMonth = 0; //количество  месяцев
 
